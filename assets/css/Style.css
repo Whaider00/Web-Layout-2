@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+#header{
+    background-color: #151515;
+    height: 70px;
+    color: white;
+}
+#logo{
+    width: 40%;
+    float: left;
+}
+#navigation{
+    width: 60%;
+    float: right;
+}
+#navigation ul li{
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+#navigation ul li:nth-child(even){
+    color: green;
+}
+#navigation ul {
+    padding-left: 291px;
+}
