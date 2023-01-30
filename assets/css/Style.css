@@ -37,3 +37,61 @@
 #navigation ul {
     padding-left: 291px;
 }
+#header-image{
+    height: 450px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top: 100px;
+    color: white;
+}
+#header-image h1{
+    font-size: 75px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+#header-image h3{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+#header-image button{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.services-items{
+    float: left;
+    text-align: center;
+    width: 30%;
+    margin-right: 63px;
+}
+.services-items:nth-child(3){
+    margin-right: 0px;
+}
+#services-section{
+    margin-top: 40px;
+}
+.services-items h2{
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #968888;
+}
+.services-items p{
+    color: #888896;
+}
+#button-section-line{
+    margin-top: 60px;
+    text-align: center;
+    position: relative;
+}
+#button-section-line button{
+    background-color: #008000;
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    text-transform: uppercase;
+    font-weight: 600;
+}
