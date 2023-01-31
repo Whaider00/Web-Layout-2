@@ -34,6 +34,9 @@ body{
     margin-right: 20px;
     margin-top: 25px;
 }
+#navigation ul li:hover{
+    color: #008000;
+}
 #navigation ul li:nth-child(even){
     color: green;
 }
