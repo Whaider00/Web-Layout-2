@@ -3,6 +3,9 @@
     font-family: Arial, Helvetica, sans-serif;
 
 }
+body{
+    padding-bottom: 50px;
+}
 .clearfix:after {
     content: "";
     display: table;
@@ -81,6 +84,7 @@
 }
 .services-items p{
     color: #888896;
+    line-height: 23px;
 }
 #button-section-line{
     margin-top: 60px;
@@ -92,6 +96,63 @@
     color: white;
     border: none;
     padding: 10px 20px; 
+    width: 203px;
     text-transform: uppercase;
     font-weight: 600;
+    position: absolute;
+    top: -20px;
+    left: 42%;
 }
+#white-background-effect{
+    background-color: white;
+    position: absolute;
+    left: 40%;
+    top: -4px;
+    width: 249px;
+    height: 20px;
+}
+#client-review{
+    margin-top: 58px;
+}
+#client-image{
+    float: left;
+    width: 25%;
+}
+#client-msg{
+    float: right;
+    width: 75%;
+    margin-top: 15px;
+}
+#client-msg p{
+    margin-top: 20px;
+    text-align: center;
+    color: #888896;
+    line-height: 23px;
+}
+#footer{
+    margin-top: 40px;
+}
+#map-image{
+    float: right;
+    text-align: right;
+    width: 30%;
+}
+#contact-info{
+    float: left;
+    width: 70%;
+}
+.info{
+    margin-bottom: 10px;
+}
+.info img{
+    float: left;
+}
+.info p{
+    float: left;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+#social-icons{
+    margin-top: 92px;
+}
+    
