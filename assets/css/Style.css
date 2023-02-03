@@ -17,7 +17,7 @@ body{
 }
 #header{
     background-color: #151515;
-    height: 70px;
+    height:auto;
     color: white;
 }
 #logo{
@@ -31,7 +31,7 @@ body{
 #navigation ul li{
     float: left;
     list-style-type: none;
-    margin-right: 20px;
+    margin-right: 12px;
     margin-top: 25px;
 }
 #navigation ul li:hover{
@@ -41,7 +41,7 @@ body{
     color: green;
 }
 #navigation ul {
-    padding-left: 291px;
+    padding-left: 170px;
 }
 #header-image{
     height: 450px;
@@ -72,7 +72,7 @@ body{
     float: left;
     text-align: center;
     width: 30%;
-    margin-right: 63px;
+    margin-right: 47px;
 }
 .services-items:nth-child(3){
     margin-right: 0px;
@@ -88,6 +88,7 @@ body{
 .services-items p{
     color: #888896;
     line-height: 23px;
+
 }
 #button-section-line{
     margin-top: 60px;
@@ -123,7 +124,7 @@ body{
 }
 #client-msg{
     float: right;
-    width: 75%;
+    width: 68%;
     margin-top: 15px;
 }
 #client-msg p{
@@ -158,4 +159,99 @@ body{
 #social-icons{
     margin-top: 92px;
 }
-    
+
+@media (max-width: 1200px) {
+    #logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    #navigation{
+        float:none;
+        width: 100%;
+       
+    }
+    #navigation ul{
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+    #navigation ul li{
+        float: none;
+        text-align: center;
+        margin-top: 14px;
+    }
+    .services-items{
+        float: none;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #button-section-line button{
+        left: 38%;
+    }
+    #white-background-effect{
+        left: 35%;
+    }
+    #client-msg{
+        width: 60%;
+    }
+
+}
+@media (max-width: 1024px) {
+    #button-section-line button{
+        left: 34%;
+    }
+    #white-background-effect{
+        left: 30%;
+    }
+    #client-image{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    #client-msg{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+    }
+    #contact-info{
+        float: none;
+        width: 100%;
+        margin-left: 160px;
+    }
+    #map-image{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    #social-icons{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+    @media (max-width: 768px) {
+     #header-image h1{
+            font-size: 55px;
+        }
+    #button-section-line button{
+        left: 27%;
+    }
+    #white-background-effect{
+        left: 21%;
+    }
+    #contact-info{
+        float: none;
+        width: 100%;
+        margin-left: 65px;
+    }
+    #map-image{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    #social-icons{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
